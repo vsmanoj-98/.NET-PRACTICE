@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Login</id>
+    <version>1.0.0</version>
+    <authors>Login</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework="net5.0-windows7.0">
+        <dependency id="Employee" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="Student" version="1.0.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+    <frameworkReferences>
+      <group targetFramework="net5.0-windows7.0">
+        <frameworkReference name="Microsoft.WindowsDesktop.App.WindowsForms" />
+      </group>
+    </frameworkReferences>
+  </metadata>
+  <files>
+    <file src="C:\Users\Sai Manoj\source\repos\Login\Login\bin\Debug\net5.0-windows\Login.runtimeconfig.json" target="lib\net5.0-windows7.0\Login.runtimeconfig.json" />
+    <file src="C:\Users\Sai Manoj\source\repos\Login\Login\bin\Debug\net5.0-windows\Login.dll" target="lib\net5.0-windows7.0\Login.dll" />
+  </files>
+</package>
